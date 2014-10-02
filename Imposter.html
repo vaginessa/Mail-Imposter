@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mail Imposter</title>
+<font color='red'>
+<p>Created by: Autonomous</p>
+<p>www.HackersHelpdesk.net</p></font>
+</head>
+<body>
+<?php echo $mail; ?>
+<link rel="stylesheet" href="/styles.css">
+<form action="functions.php" method="post">
+<table border="0">
+<tr>
+<td>Victim Address: </td>
+<td><input type="text" name="to"></td>
+</tr>
+<tr>
+<td>Impersonation Address: </td>
+<td><input type="text" name="from"></td>
+</tr>
+<tr>
+<td>Impersonation Name: </td>
+<td><input type="text" name="fromname"></td>
+</tr>
+<tr>
+<td>Reply To: </td>
+<td><input type="text" name="replyto"></td>
+</tr>
+<tr>
+<td>Subject: </td>
+<td><input type="text" name="subject"></td>
+</tr>
+<tr>
+<td>Body: </td>
+<td><textarea name="message"></textarea></td>
+</tr>
+<tr>
+<td>Encryption Key: </td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="Send Email" />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

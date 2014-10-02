@@ -1,0 +1,28 @@
+<?php Header ("Content-type: text/css; charset=utf-8");?> 
+
+<style type="text/css">
+<!--
+body,td,th {
+   color: #999999;
+   font-family: Courier New, Courier, monospace;
+}
+body {
+   background-image: url('images/background.png');
+}
+INPUT {
+background-color: black;
+border: grey 1px solid;
+color: white;
+font-family: arial, verdana, ms sans serif;
+font-size: 10pt
+}
+TEXTAREA {
+background-color: black;
+border: grey 1px solid;
+color: white;
+font-family: arial, verdana, ms sans serif;
+font-size: 10pt;
+font-weight: normal
+}
+-->
+</style>
